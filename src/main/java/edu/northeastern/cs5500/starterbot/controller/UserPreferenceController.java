@@ -10,7 +10,6 @@ import javax.inject.Inject;
 public class UserPreferenceController {
 
     GenericRepository<UserPreference> userPreferenceRepository;
-    
 
     @Inject
     UserPreferenceController(GenericRepository<UserPreference> userPreferenceRepository) {
